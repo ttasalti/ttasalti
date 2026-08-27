@@ -18,7 +18,7 @@ Portuguese and Turkish had almost no data for this kind of evaluation, so I buil
 
 - **Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit** — first author, under review at the MRL Workshop @ EMNLP 2026
 - **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026** — first author, [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227)
-- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026) — co-first author. 126 native-written cultural-knowledge questions across nine categories, benchmarked against four LLMs.
+- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026) — co-first author, submitted. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
 
 ### Selected repositories
 

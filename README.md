@@ -1,6 +1,6 @@
 # Tarık Tuna Taşaltı
 
-**LLM evaluation researcher** at NOVA FCT, working on AMALIA, Portugal's national large language model programme.
+**LLM evaluation researcher** at NOVA FCT, working on [AMALIA](https://amaliallm.pt/), Portugal's national large language model programme.
 
 I work on whether language models actually reason, or just land on the right answer — and I do it in English, European Portuguese and Turkish.
 
@@ -24,7 +24,7 @@ Portuguese and Turkish had almost no data for this kind of evaluation, so I buil
 
 | | |
 |---|---|
-| [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM/SGLang) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. The code behind the EMNLP submission. |
+| [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. Research codebase behind a multilingual audit of the metric's judging step. |
 | [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. Co-first author. |
 | [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and localisation for Formula Student Driverless. DBSCAN clustering, rule-based filtering, odometry attachment, and local-to-global coordinate transforms. |
 | [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m. |

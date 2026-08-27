@@ -14,16 +14,18 @@ The interesting result came from trying to break it. I planted arithmetic errors
 
 Portuguese and Turkish had almost no data for this kind of evaluation, so I built it: a translation pipeline with native-speaker review, plus two test sets written from scratch.
 
-### Papers
+### Research
 
 - **Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit** — first author, under review at the MRL Workshop @ EMNLP 2026
 - **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026** — first author, [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227)
-- - **Turkish dataset contribution**, MRL 2026 Shared Task @ EMNLP — co-first author. 126 native-written cultural-knowledge questions across nine categories, benchmarked against four LLMs.
+- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026) — co-first author. 126 native-written cultural-knowledge questions across nine categories, benchmarked against four LLMs.
 
 ### Selected repositories
 
 | | |
 |---|---|
+| [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM/SGLang) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. The code behind the EMNLP submission. |
+| [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. Co-first author. |
 | [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and localisation for Formula Student Driverless. DBSCAN clustering, rule-based filtering, odometry attachment, and local-to-global coordinate transforms. |
 | [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m. |
 | [**tt-bootcamp**](https://github.com/ttasalti/tt-bootcamp/tree/main/week2/capstone/TarikTunaTasalti) | Churn prediction over 10M rows with PySpark, segment-specific XGBoost, out-of-fold threshold optimisation, counterfactual explanations. 3rd place at Türk Telekom's Big Data Camp. |

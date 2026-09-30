@@ -10,7 +10,7 @@ I work on whether language models actually reason or just land on the right answ
 
 At AMALIA I built the reasoning-evaluation stack end to end: the CoT-Pass@k judging stage, custom vLLM serving for reasoning traces up to 64k tokens, and a benchmarking campaign of 22 model configurations across five benchmarks in three languages. That came to 252k generations, each correct one judged three times by up to four judges, or 835k inference calls and 9.26B tokens in total.
 
-The interesting result came from trying to break it. I planted arithmetic errors inside otherwise correct reasoning chains, and the judges accepted them 92–98% of the time. Raising the generation budget alone moved Pass@64 by more than 50 points while the gap between Pass@64 and CoT-Pass@64 stayed at zero.
+The main result came from trying to break it. I planted arithmetic errors inside otherwise correct reasoning chains and the judges accepted them 92–98% of the time; they rejected a solution mainly when its final answer was wrong. So the judge scores whether the chain agrees with the answer, not whether the reasoning is valid, and on current models CoT-Pass@k collapses onto plain Pass@k (the average gap falls from 19.7 to 4.1 points). As a side finding, raising the generation budget alone moves Pass@64 by more than 50 points while that gap stays at zero.
 
 Portuguese and Turkish had little data for this kind of evaluation, so I built it: AIME 2026 translations with native-speaker review, plus two test sets taken from Portuguese national exams and the Turkish mathematics olympiad.
 

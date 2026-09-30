@@ -31,6 +31,7 @@ Portuguese and Turkish had little data for this kind of evaluation, so I built i
 | [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and localisation for Formula Student Driverless. DBSCAN clustering, rule-based filtering, odometry attachment, and local-to-global coordinate transforms. |
 | [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m, passed the first stage as team lead. |
 | [**tt-bootcamp-2025**](https://github.com/ttasalti/tt-bootcamp-2025) | Churn prediction over 10M rows with PySpark, segment-specific XGBoost, out-of-fold threshold selection and counterfactual explanations, plus a DuckDB recommender. 3rd place at Türk Telekom's Big Data Camp. |
+| [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
 
 ### Tools
 

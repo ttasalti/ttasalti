@@ -2,7 +2,7 @@
 
 **LLM evaluation researcher** at NOVA FCT, working on [AMALIA](https://amaliallm.pt/), Portugal's national large language model programme.
 
-I work on whether language models actually reason or just land on the right answer, and I do it in English, European Portuguese and Turkish.
+I work on whether language models actually reason or just land on the right answer, and I do it in English, European Portuguese and Turkish. Next, I want to work on reward signals for RL with LLMs: how reliable step-level rewards need to be, and what models learn when they are wrong.
 
 ---
 
@@ -40,6 +40,6 @@ Python · vLLM · SGLang · Hugging Face Transformers · PyTorch · verl · SLUR
 ---
 
 M.Sc. Data Science, graduating December 2026 · Based in Lisbon  
-**Available for full-time roles from January 2027**
+**Applying to PhD programs for Fall 2027 and open to research and engineering roles in LLMs from January 2027**
 
 [LinkedIn](https://www.linkedin.com/in/tariktunatasalti) · [Kaggle](https://www.kaggle.com/tarktunataalt) · tasaltitariktuna@gmail.com

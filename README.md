@@ -43,6 +43,6 @@ Python · vLLM · SGLang · Hugging Face Transformers · PyTorch · verl · Lang
 ---
 
 M.Sc. Data Science, finishing January 2027 · Based in Lisbon, authorised to work in Portugal (no sponsorship needed)  
-**Applying to PhD programs for Fall 2027 and open to research and engineering roles in LLMs from February 2027**
+**Applying to PhD programs for Fall 2027 and open to research and engineering roles in LLMs from January 2027**
 
 [LinkedIn](https://www.linkedin.com/in/tariktunatasalti) · [Kaggle](https://www.kaggle.com/tarktunataalt) · tasaltitariktuna@gmail.com

@@ -14,17 +14,20 @@ The main result came from trying to break it. I planted arithmetic errors inside
 
 Portuguese and Turkish had little data for this kind of evaluation, so I built it: AIME 2026 translations with native-speaker review, plus two test sets taken from Portuguese national exams and the Turkish mathematics olympiad.
 
+On the application side, I built a multilingual RAG and agent system that answers questions about Portuguese public services (AIMA, Finanças, Segurança Social, SNS) in Turkish, English and Portuguese, with citations. Reranking lifted Hit@1 from 73% to 85%, and a LangGraph agent raised multi-page coverage from 59% to 95%.
+
 ### Research
 
-- **[Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit](https://arxiv.org/abs/2609.32622)**. First author, accepted at the MRL Workshop @ EMNLP 2026. [arXiv:2609.32622](https://arxiv.org/abs/2609.32622) · [code](https://github.com/ttasalti/evalhub)
+- **[Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit](https://aclanthology.org/2026.mrl-1.pdf#page=432)**. First author, Proceedings of the MRL Workshop @ EMNLP 2026, pp. 422–444. [ACL Anthology](https://aclanthology.org/2026.mrl-1.pdf#page=432) · [arXiv:2609.32622](https://arxiv.org/abs/2609.32622) · [code](https://github.com/ttasalti/evalhub)
 - **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026**. First author, abstract in the [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227, ISBN 978-625-90604-0-8)
-- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Co-first author, submitted. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
+- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Co-first author, accepted. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
 
 ### Selected repositories and datasets
 
 | | |
 |---|---|
 | [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. The code, data tables and figures behind the MRL 2026 paper. |
+| [**portugal-services-qa**](https://github.com/ttasalti/portugal-services-qa) | Cited question answering over Portuguese public-service pages in Turkish, English and Portuguese. Compares single-shot RAG, a LangGraph tool-calling agent and a supervisor/specialist multi-agent on 47 questions, with hybrid retrieval, bge-m3 and cross-encoder reranking, an LLM-judge groundedness check tested with injected faults, and a FastAPI service on vLLM. |
 | [**aime2026-tr-pt**](https://huggingface.co/datasets/tariktuna/aime2026-tr-pt) | AIME 2026 in Turkish and European Portuguese, translated and audited by native speakers. On Hugging Face. |
 | [**pt-exams-math-open**](https://huggingface.co/datasets/tariktuna/pt-exams-math-open) | 166 mathematics questions from Portuguese national exams, filtered from [PHEB](https://github.com/AMALIA-LLM/pheb) and converted to open answer. On Hugging Face. |
 | [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. Co-first author. |
@@ -35,11 +38,11 @@ Portuguese and Turkish had little data for this kind of evaluation, so I built i
 
 ### Tools
 
-Python · vLLM · SGLang · Hugging Face Transformers · PyTorch · verl · SLURM · PySpark · DuckDB · XGBoost · scikit-learn · R
+Python · vLLM · SGLang · Hugging Face Transformers · PyTorch · verl · LangChain/LangGraph · FastAPI · Docker · SLURM · PySpark · DuckDB · XGBoost · scikit-learn · R
 
 ---
 
-M.Sc. Data Science, graduating December 2026 · Based in Lisbon  
+M.Sc. Data Science, finishing January 2027 · Based in Lisbon, authorised to work in Portugal (no sponsorship needed)  
 **Applying to PhD programs for Fall 2027 and open to research and engineering roles in LLMs from January 2027**
 
 [LinkedIn](https://www.linkedin.com/in/tariktunatasalti) · [Kaggle](https://www.kaggle.com/tarktunataalt) · tasaltitariktuna@gmail.com

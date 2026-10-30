@@ -24,21 +24,34 @@ On the application side, I built a multilingual RAG and agent system that answer
 
 ### Selected repositories and datasets
 
+#### LLM evaluation research
+
 | | |
 |---|---|
 | [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. The code, data tables and figures behind the MRL 2026 paper. |
-| [**portugal-services-qa**](https://github.com/ttasalti/portugal-services-qa) | Cited question answering over Portuguese public-service pages in Turkish, English and Portuguese. Compares single-shot RAG, a LangGraph tool-calling agent and a supervisor/specialist multi-agent on 47 questions, with hybrid retrieval, bge-m3 and cross-encoder reranking, an LLM-judge groundedness check tested with injected faults, and a FastAPI service on vLLM. |
 | [**aime2026-tr-pt**](https://huggingface.co/datasets/tariktuna/aime2026-tr-pt) | AIME 2026 in Turkish and European Portuguese, translated and audited by native speakers. On Hugging Face. |
 | [**pt-exams-math-open**](https://huggingface.co/datasets/tariktuna/pt-exams-math-open) | 166 mathematics questions from Portuguese national exams, filtered from [PHEB](https://github.com/AMALIA-LLM/pheb) and converted to open answer. On Hugging Face. |
 | [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. Co-first author. |
+
+#### Applied ML and LLM engineering
+
+| | |
+|---|---|
+| [**portugal-services-qa**](https://github.com/ttasalti/portugal-services-qa) | Cited question answering over Portuguese public-service pages in Turkish, English and Portuguese. Compares single-shot RAG, a LangGraph tool-calling agent and a supervisor/specialist multi-agent on 47 questions, with hybrid retrieval, bge-m3 and cross-encoder reranking, an LLM-judge groundedness check tested with injected faults, and a FastAPI service on vLLM. |
+| [**tt-bootcamp-2025**](https://github.com/ttasalti/tt-bootcamp-2025) | Churn prediction over 10M rows with PySpark, segment-specific XGBoost, out-of-fold threshold selection and counterfactual explanations, plus a DuckDB recommender. 3rd place at Türk Telekom's Big Data Camp. |
+| [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m, passed the first stage as team lead. |
+| [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
+
+#### Earlier projects and coursework
+
+| | |
+|---|---|
 | [**f1-lap-time-simulator**](https://github.com/ttasalti/f1-lap-time-simulator) | My undergraduate thesis (2021–2022), written by hand before AI tools. Scrapes and parses messy FIA timing PDFs, Pirelli tyre pages and the Ergast API into an object-oriented driver model, then simulates races lap by lap with retirements, spins, DRS, overtaking and safety cars. Based on the f1metrics race simulator. |
+| [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
 | [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). |
 | [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
-| [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
 | [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and localisation for Formula Student Driverless. DBSCAN clustering, rule-based filtering, odometry attachment, and local-to-global coordinate transforms. |
-| [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m, passed the first stage as team lead. |
-| [**tt-bootcamp-2025**](https://github.com/ttasalti/tt-bootcamp-2025) | Churn prediction over 10M rows with PySpark, segment-specific XGBoost, out-of-fold threshold selection and counterfactual explanations, plus a DuckDB recommender. 3rd place at Türk Telekom's Big Data Camp. |
-| [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
+| [**autonomous-car-parking**](https://github.com/ttasalti/autonomous-car-parking) | Artificial intelligence course project (2021, team of three): a 2D car learns to park between other cars in Unity, trained with PPO through ML-Agents, with a shaped reward and human demonstrations. |
 
 ### Tools
 

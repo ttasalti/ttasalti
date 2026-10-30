@@ -14,6 +14,8 @@ The main result came from trying to break it. I planted arithmetic errors inside
 
 Portuguese and Turkish had little data for this kind of evaluation, so I built it: AIME 2026 translations with native-speaker review, plus two test sets taken from Portuguese national exams and the Turkish mathematics olympiad.
 
+I started this work with RLVR post-training experiments in verl (DAPO, Dr. GRPO, GMPO) on small base models, and turned to auditing the evaluation metric when it proved unreliable.
+
 On the application side, I built a multilingual RAG and agent system that answers questions about Portuguese public services (AIMA, Finanças, Segurança Social, SNS) in Turkish, English and Portuguese, with citations. Reranking lifted Hit@1 from 73% to 85%, and a LangGraph agent raised multi-page coverage from 59% to 95%.
 
 ### Research
@@ -40,18 +42,23 @@ On the application side, I built a multilingual RAG and agent system that answer
 | [**portugal-services-qa**](https://github.com/ttasalti/portugal-services-qa) | Cited question answering over Portuguese public-service pages in Turkish, English and Portuguese. Compares single-shot RAG, a LangGraph tool-calling agent and a supervisor/specialist multi-agent on 47 questions, with hybrid retrieval, bge-m3 and cross-encoder reranking, an LLM-judge groundedness check tested with injected faults, and a FastAPI service on vLLM. |
 | [**tt-bootcamp-2025**](https://github.com/ttasalti/tt-bootcamp-2025) | Churn prediction over 10M rows with PySpark, segment-specific XGBoost, out-of-fold threshold selection and counterfactual explanations, plus a DuckDB recommender. 3rd place at Türk Telekom's Big Data Camp. |
 | [**5G-Positioning-Competition**](https://github.com/Teknofest-High5/5G-Positioning-Competition) | TEKNOFEST 2025, Turkcell 5G positioning. Multi-output regression from live radio metrics to coordinates; XGBoost + Optuna, neighbour-cell features. Best mean error 2.7 m, passed the first stage as team lead. |
-| [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
 
-#### Earlier projects and coursework
+#### Reinforcement learning, simulation and perception
 
 | | |
 |---|---|
-| [**f1-lap-time-simulator**](https://github.com/ttasalti/f1-lap-time-simulator) | My undergraduate thesis (2021–2022), written by hand before AI tools. Scrapes and parses messy FIA timing PDFs, Pirelli tyre pages and the Ergast API into an object-oriented driver model, then simulates races lap by lap with retirements, spins, DRS, overtaking and safety cars. Based on the f1metrics race simulator. |
-| [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
-| [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). |
-| [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
-| [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and track mapping, from the driverless team of NOVA Formula Student (2025): RANSAC ground removal, DBSCAN and size rules tuned on half of the scans. On held-out scans 0.96 precision and recall; the map recovers all 144 track cones with a 3.2 cm mean error. |
 | [**autonomous-car-parking**](https://github.com/ttasalti/autonomous-car-parking) | Artificial intelligence course project (2021, team of three): a 2D car learns to park between other cars in Unity, trained with PPO through ML-Agents, with a shaped reward and human demonstrations. |
+| [**f1-lap-time-simulator**](https://github.com/ttasalti/f1-lap-time-simulator) | My undergraduate thesis (2021–2022). Scrapes and parses messy FIA timing PDFs, Pirelli tyre pages and the Ergast API into an object-oriented driver model, then simulates races lap by lap with retirements, spins, DRS, overtaking and safety cars. Based on the f1metrics race simulator. |
+| [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and track mapping, from the driverless team of NOVA Formula Student (2025): RANSAC ground removal, DBSCAN and size rules tuned on half of the scans. On held-out scans 0.96 precision and recall; the map recovers all 144 track cones with a 3.2 cm mean error. |
+
+#### Coursework
+
+| | |
+|---|---|
+| [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
+| [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
+| [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). |
+| [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
 
 ### Tools
 

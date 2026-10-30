@@ -50,7 +50,7 @@ On the application side, I built a multilingual RAG and agent system that answer
 | [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
 | [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). |
 | [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
-| [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and localisation for Formula Student Driverless. DBSCAN clustering, rule-based filtering, odometry attachment, and local-to-global coordinate transforms. |
+| [**coneScenes**](https://github.com/ttasalti/coneScenes) | LiDAR cone detection and track mapping, from the driverless team of NOVA Formula Student (2025): RANSAC ground removal, DBSCAN and size rules tuned on half of the scans. On held-out scans 0.96 precision and recall; the map recovers all 144 track cones with a 3.2 cm mean error. |
 | [**autonomous-car-parking**](https://github.com/ttasalti/autonomous-car-parking) | Artificial intelligence course project (2021, team of three): a 2D car learns to park between other cars in Unity, trained with PPO through ML-Agents, with a shaped reward and human demonstrations. |
 
 ### Tools

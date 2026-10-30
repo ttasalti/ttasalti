@@ -57,7 +57,7 @@ On the application side, I built a multilingual RAG and agent system that answer
 |---|---|
 | [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
 | [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
-| [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). |
+| [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). [Open the live app](https://ttasalti.github.io/f1-2024-race-visualisation/). |
 | [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
 
 ### Tools

@@ -20,9 +20,9 @@ On the application side, I built a multilingual RAG and agent system that answer
 
 ### Research
 
-- **[Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit](https://aclanthology.org/2026.mrl-1.34/)**. First author, Proceedings of the MRL Workshop @ EMNLP 2026, pp. 422–444. [ACL Anthology](https://aclanthology.org/2026.mrl-1.34/) · [arXiv:2609.32622](https://arxiv.org/abs/2609.32622) · [code](https://github.com/ttasalti/evalhub)
-- **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026**. First author, abstract in the [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227, ISBN 978-625-90604-0-8)
-- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Accepted; co-first author of the dataset description and co-author of the shared-task overview paper. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
+- **[Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit](https://aclanthology.org/2026.mrl-1.34/)**. First author, Proceedings of the MRL Workshop @ EMNLP 2026, pp. 422–444, poster (online). [ACL Anthology](https://aclanthology.org/2026.mrl-1.34/) · [arXiv:2609.32622](https://arxiv.org/abs/2609.32622) · [code](https://github.com/ttasalti/evalhub)
+- **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026**. First author, abstract in the [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227, ISBN 978-625-90604-0-8); oral presentation (online)
+- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Accepted; co-first author of the dataset description and co-author of the shared-task overview paper. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs. [Report](https://github.com/gsaltintas/shared-task-turkish-2026/blob/main/paper/turkish_dataset_report.pdf).
 
 ### Selected repositories and datasets
 
@@ -58,6 +58,7 @@ On the application side, I built a multilingual RAG and agent system that answer
 | [**msc-data-science-coursework**](https://github.com/ttasalti/msc-data-science-coursework) | M.Sc. assignments with code and reports: clustering (k-means, k-medoids, hierarchical, DBSCAN), PCA, regression and model selection, MICE imputation, LDA/QDA, random forests, XGBoost with counterfactuals, ARIMA/SARIMA, and statistics in R and Python. |
 | [**gan-cgan-faces**](https://github.com/ttasalti/gan-cgan-faces) | A DCGAN and an expression-conditioned GAN for face images in TensorFlow/Keras. |
 | [**f1-2024-race-visualisation**](https://github.com/ttasalti/f1-2024-race-visualisation) | Race pace, tyre strategy and position plots for the first seven races of 2024, from FastF1 lap data, with an interactive Shiny app to explore any race (R, ggplot2). [Open the live app](https://ttasalti.github.io/f1-2024-race-visualisation/). |
+| [**DC-Capital-Bikeshare-Data-Viz-Analysis**](https://github.com/ttasalti/DC-Capital-Bikeshare-Data-Viz-Analysis) | Exploratory analysis of daily Capital Bikeshare demand in Washington DC (R): weather and calendar effects, monthly seasonality and an STL decomposition. The first part of the bike-sharing series below. |
 | [**Bike-Sharing-Demand-SARIMAX-Hybrid-Models**](https://github.com/ttasalti/Bike-Sharing-Demand-SARIMAX-Hybrid-Models) | Bike-sharing demand forecasting in R: SARIMAX with exogenous regressors, then XGBoost, CatBoost, LightGBM and random forest fitted on the residuals. SARIMAX + XGBoost gives the lowest test RMSE. Part of a series with an [LSTM and STL notebook](https://github.com/ttasalti/Bike-Sharing-Demand-LSTM-STL-Models) and a [UK refugee forecasting study](https://github.com/ttasalti/Forecasting-UK-Refugee-Numbers-ARIMA-SVM-LSTM). |
 
 ### Tools

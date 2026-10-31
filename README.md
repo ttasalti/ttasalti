@@ -22,7 +22,7 @@ On the application side, I built a multilingual RAG and agent system that answer
 
 - **[Does CoT-Pass@k Really Check the CoT? A Multilingual Mathematical Audit](https://aclanthology.org/2026.mrl-1.34/)**. First author, Proceedings of the MRL Workshop @ EMNLP 2026, pp. 422–444. [ACL Anthology](https://aclanthology.org/2026.mrl-1.34/) · [arXiv:2609.32622](https://arxiv.org/abs/2609.32622) · [code](https://github.com/ttasalti/evalhub)
 - **Cross-Lingual Mathematical Reasoning in LLMs: Benchmarking Base, Non-Think and Think Modes on Multilingual AIME 2026**. First author, abstract in the [UYIK 2026 proceedings](https://www.uyik.org/uploads/uyik-2026-proceedings-book.pdf) (p. 227, ISBN 978-625-90604-0-8)
-- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Accepted; first author of the dataset description and co-author of the shared-task overview paper. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
+- **Turkish dataset contribution**, [MRL 2026 Shared Task @ EMNLP](https://github.com/gsaltintas/shared-task-turkish-2026). Accepted; co-first author of the dataset description and co-author of the shared-task overview paper. 126 native-written cultural-knowledge questions in nine categories, benchmarked against four LLMs.
 
 ### Selected repositories and datasets
 
@@ -33,7 +33,7 @@ On the application side, I built a multilingual RAG and agent system that answer
 | [**evalhub**](https://github.com/ttasalti/evalhub) | CoT-Pass@K judged evaluation for LLM reasoning. Adds a judging stage on top of a Pass@K-only harness, local (vLLM) and cached API judge backends, multilingual math benchmarks, and campaign-level reporting. The code, data tables and figures behind the MRL 2026 paper. |
 | [**aime2026-tr-pt**](https://huggingface.co/datasets/tariktuna/aime2026-tr-pt) | AIME 2026 in Turkish and European Portuguese, translated and audited by native speakers. On Hugging Face. |
 | [**pt-exams-math-open**](https://huggingface.co/datasets/tariktuna/pt-exams-math-open) | 166 mathematics questions from Portuguese national exams, filtered from [PHEB](https://github.com/AMALIA-LLM/pheb) and converted to open answer. On Hugging Face. |
-| [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. First author of the dataset description. |
+| [**shared-task-turkish-2026**](https://github.com/gsaltintas/shared-task-turkish-2026) | Turkish cultural-knowledge benchmark for the MRL 2026 shared task: 126 native-written questions across nine categories, quality-controlled and probed with four LLMs. Co-first author of the dataset description. |
 
 #### Applied ML and LLM engineering
 
